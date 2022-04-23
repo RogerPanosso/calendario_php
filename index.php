@@ -28,7 +28,8 @@
 	echo "</tr>";
 	echo "</thead>";
 	echo "<tbody>";
-
+	
+	//definição da $inicio_data na qual recebe timestamp atual do ultimo domindo do mês, na qual será responsável por definir dia atual
 	$inicio_data = strtotime("last sunday", $monthTime);
 
 	//inicia contador for criando linhas dinâmicamente sendo 6 no total para calendario
